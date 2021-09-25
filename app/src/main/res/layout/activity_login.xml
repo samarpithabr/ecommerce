@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login">
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login in to get started\n \n Experience the all new App!\n"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_baseline_email_24">
+        </ImageView>
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Email id">
+
+        </EditText>
+
+    </LinearLayout>
+    <View
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#9E9E9E" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_baseline_lock_24">
+        </ImageView>
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="password">
+
+        </EditText>
+
+    </LinearLayout>
+    <View
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#9E9E9E" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="end"
+        android:textColor="#FF8C00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nUse mobile number">
+
+    </TextView>
+    <View
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#9E9E9E" />
+
+    <Button
+        android:id="@+id/loginlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#FF8C00">
+
+    </Button>
+</LinearLayout>

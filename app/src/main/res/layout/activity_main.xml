@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_marginLeft="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Register in to get started\n \n Experience the all new App!\n"
+   >
+
+</TextView>
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+     <ImageView
+         android:layout_width="25dp"
+         android:layout_height="25dp"
+         android:src="@drawable/ic_baseline_person_outline_24">
+     </ImageView>
+
+<EditText
+    android:layout_marginLeft="12dp"
+    android:background="@null"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Name">
+
+</EditText>
+
+ </LinearLayout>
+    <View
+   android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#9E9E9E" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_baseline_email_24">
+        </ImageView>
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="EmailID"
+            android:background="@null">
+        </EditText>
+
+    </LinearLayout>
+    <View
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#9E9E9E" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_baseline_phone_24">
+        </ImageView>
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number">
+
+        </EditText>
+
+    </LinearLayout>
+    <View
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#9E9E9E" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_baseline_lock_24">
+        </ImageView>
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Password">
+
+        </EditText>
+
+    </LinearLayout>
+    <View
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#9E9E9E" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_baseline_lock_24">
+        </ImageView>
+
+        <EditText
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+
+            android:background="@null"
+
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height= "1dp"
+        android:background="#9E9E9E" />
+    <Button
+        android:id="@+id/registerr"
+       android:backgroundTint="#FF8C00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+     android:layout_gravity="center">
+
+    </Button>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Already have an account?">
+
+</TextView>
+<TextView
+    android:id="@+id/login"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:text="Login">
+
+</TextView>
+    </LinearLayout>
+</LinearLayout>
